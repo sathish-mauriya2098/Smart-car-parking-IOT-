@@ -32,7 +32,7 @@ while ($result=mysql_fetch_assoc($res))
 }
     if($user==$dbusername&&$pasword==$dbpassword)
     {
-         header("Location: AdminDashbord.php");
+         header("Location: Adminl/index.php");
         $_SESSION['usrnam']=$user;
     }
 }
